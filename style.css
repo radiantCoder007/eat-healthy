@@ -137,15 +137,24 @@
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin: 100px;
-    display: flex;
     max-height: 226px;
 
 }
 
-/* .stat-box {
+.stat-box {
     display: flex;
     justify-content: space-between;
-    padding: 165px 65px;
+    max-width: 1239px;
+    padding: 100px;
+    /* padding-right: 100px;
+    padding-left: 100px; */
+
+}
+
+.stat-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .number {
@@ -154,13 +163,29 @@
     line-height: 64px;
 }
 
-.stat-text {
+.footer {
+    background: #0B0D17;
+    height: 256px;
+
+}
+
+.footer-section {
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-logo,
+.footer-text {
+    color: #ffefe8;
+}
+
+#eat {
+    color: #FC8E48;
+}
+
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-} */
-.stat-box {
-    display: flex;
-    padding: 100px;
-    justify-content: space-between;
 }
